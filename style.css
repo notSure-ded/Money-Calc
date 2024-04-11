@@ -52,7 +52,7 @@ input[type="submit"]:hover {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  max-width: 80%;
+  max-width: 300px;
   background-color: #f9f9f9;
 }
 th, td {
@@ -74,9 +74,3 @@ height: 500px;
 width:400px;
 }
 
-  @media screen and (min-width: 768px) {
-  #res {
-    width: 50vw;
-  }
-}
-  
