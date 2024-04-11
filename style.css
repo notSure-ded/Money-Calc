@@ -73,4 +73,10 @@ from{
 height: 500px;
 width:400px;
 }
+
+  @media screen and (min-width: 768px) {
+  #res {
+    width: 50vw;
+  }
+}
   
