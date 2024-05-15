@@ -53,7 +53,7 @@ const calcTableB = (m, d) => {
   var profit = 0.0;
 var result = '<table border="1"><tr><th>Current Money</th><th>Invested</th><th>Profit</th><th>Total Money</th></tr>';
   for (let i = 0; i < d; i++) {
-    m+=600;
+    m+=500;
     result+=`<tr><td>${m.toFixed(2)}</td><td>`
     
     invested = m * 0.1;
@@ -72,7 +72,7 @@ const calcB=(m,d)=>{
   var profit=0.0;
   var result=" "
   for (let i = 0; i < d; i++) {
-    m+=600;
+      m+=500;
      invested=m*.1;
     profit=invested*.6;
     m=m+profit;
