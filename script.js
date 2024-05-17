@@ -49,11 +49,12 @@ document.getElementById('res').innerHTML = result;
 const calcTableB = (m, d) => {
   m = parseFloat(m);
   d = parseInt(d);
+  const bon=parseFloat(document.getElementById('hhh').value);
   var invested = 0.0;
   var profit = 0.0;
 var result = '<table border="1"><tr><th>Current Money</th><th>Invested</th><th>Profit</th><th>Total Money</th></tr>';
   for (let i = 0; i < d; i++) {
-    m+=600;
+    m+=bon;
     result+=`<tr><td>${m.toFixed(2)}</td><td>`
     
     invested = m * 0.1;
@@ -68,11 +69,12 @@ document.getElementById('res').innerHTML = result;
 const calcB=(m,d)=>{
   m = parseFloat(m);
   d = parseInt(d);
+  const bon=parseFloat(document.getElementById('hhh').value);
   var invested=0.0;
   var profit=0.0;
   var result=" "
   for (let i = 0; i < d; i++) {
-      m+=600;
+    m+=bon;
      invested=m*.1;
     profit=invested*.6;
     m=m+profit;
